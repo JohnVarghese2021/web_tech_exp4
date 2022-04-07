@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tokyo Manji</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        body{
+            background-color: black;
+            color: gold
+        }
+        *{
+            margin: 0px;
+        }
+        .Background_pic{
+        background-image: url('background.jpg');
+        background-repeat: repeat;   
+        background-size: 100% 100%;
+        width: 1900px;
+        height: 440px;
+        }
+        .Background_pic {
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .img1 {
+        position: relative;
+        top: 30px;
+        left: 30px;
+        border: 1px solid #000000;
+      }
+      .img2 {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        border: 1px solid #000000;
+      }
+    .img3 {
+        position: absolute;
+        top: 70px;
+        left: 60px;
+        border: 1px solid #000000;
+      }
+    .navbar {
+        list-style-type: none;
+        background-color: gold;
+        height: 50px;
+        width: 97.2%;
+    }
+    .navbar li{
+        float:left;
+        width: 20%;
+        text-align: center;
+        font-weight: bold;
+    }
+    .navbar a{
+        color: rgb(0, 162, 255);
+        text-decoration: none;
+        line-height: 39px;
+        display: block;
+        }
+    .navbar a:hover{
+        background-color: black;
+        color:white;        
+        }
+    .round{
+        border: 2px solid gold;
+        border-radius: 15px; 
+        padding: 5px;
+        }
+    th,td{
+        border-collapse: collapse;
+        padding: 0px;
+        margin: 0px;
+        }
+    .background{
+        background-image: url('background_2.jpg');
+        background-repeat: no-repeat;   
+        background-size: 100% 100%;
+        width: 1900px;
+        height: 300px;
+
+    }
+    .form{
+        padding: 5px;
+        margin-top: 20px;
+        margin-left: 450px;
+        background-color: orange;
+        color: black;
+        border: 2px;
+        width: 200px;
+        height: 170px;
+        border-radius: 25px;
+    }
+    .form1{
+        padding: 5px;
+        margin-top: 20px;
+        margin-left:30px;
+        margin-right: 1000px;
+        background-color: orange;
+        color: black;
+        border: 2px;
+        width: 200px;
+        height: 230px;
+        border-radius: 25px;
+
+    }
+            
+
+    </style>
+    
+    <body>
+        <div class="Background_pic">
+            <img src="img1.jpg" class="img1" height="100" width="100">
+            <img src="img1.jpg" class="img2" height="100" width="100">
+        </div>
+         <hr color="orange" style="margin-top: 5px; margin-bottom: 5px;">
+        <div>
+            <ul class="navbar">
+                <li><a href="https://tokyorevengers.fandom.com/wiki/Manjiro_Sano#Skills_and_Abilities">Manjiro Sano</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li><a href="https://tokyorevengers.fandom.com/wiki/Takemichi_Hanagaki">Takemichi Hanagaki</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li><a href="https://tokyorevengers.fandom.com/wiki/Ken_Ryuguji">Ken Ryuguji</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li><a href="https://tokyorevengers.fandom.com/wiki/Keisuke_Baji">Keisuke Baji</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li><a href="https://tokyorevengers.fandom.com/wiki/Chifuyu_Matsuno">Chifuyu Matsuno</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+        </div>
+        <hr color="gold" style="margin-top: 3px; margin-bottom: 10px;">
+        <hr color="gold" style="margin-top: 9px; margin-bottom: 7px;">
+        
+        <div class="background" style="text-align: center;">
+            <table style="text-align: center; " >
+            <tr>
+            <td>
+            <form class="form" action="/action_page.php">
+                <label for="signup"><h4 style="margin-top: 10px;">Sign Up</h4></label><br>
+                <label for="uname">User Name:</label><br>
+                <input type="text" id="uname" name="uname" placeholder="Enter the username" required style="background-color:skyblue;"><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter the password" required style="background-color: skyblue;"><br><br>
+                <input type="submit" id="Sign Up" name="Sign Up" value="Sign Up" style="background-color: greenyellow; margin-bottom: 10px; border: 1px solid greenyellow ; width: 150px; height: 20px;">
+
+            </form>
+            </td>
+            <td class="signup_2">
+            <form class="form1" action="/action_page.php">
+                <label for="signup"><h4 style="margin-top: 10px;">Sign Up</h4></label><br>
+                <label for="uname">User Name:</label><br>
+                <input type="text" id="uname" name="uname" placeholder="Enter the username" required style="background-color:skyblue; "><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter the email" required style="background-color:skyblue;"><br>
+                <label for="password" style="margin-top: 10px;">Password:</label><br>
+                <input type="password" id="password" name="password" placeholder="Enter the password" required style="background-color: skyblue;"><br><br>
+                <input type="submit" id="Sign Up" name="Sign Up" value="Sign Up" style="background-color: greenyellow; margin-top: 10px; border: 1px solid greenyellow ; width: 150px; height: 20px;">
+
+            </form>
+            </td>
+            </tr>
+            </table>
+        </div>
+        <hr color="gold" style="margin-top: 9px; margin-bottom: 7px;">
+        <div>
+            <h4>Address</h4>
+            <div style="margin: 10px;">A middle-aged loser travels in time to his school years, and, in order to save the love of his life from future doom, he must become the leader of a dreaded school gang.</div>
+        </div>
+    
+    </body>
+</html>
